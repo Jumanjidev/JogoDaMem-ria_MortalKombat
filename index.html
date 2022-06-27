@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jogo da memória</title>
+</head>
+<body>
+    <main class="memory-game">
+        <div class="card" data-card="cassiecage">
+            <img class="card-front" src="./img/cassiecage.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="ermac">
+            <img class="card-front" src="./img/ermac.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="erronblack">
+            <img class="card-front" src="./img/erronblack.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="goro">
+            <img class="card-front" src="./img/goro.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="jax">
+            <img class="card-front" src="./img/jax.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="johnnycage">
+            <img class="card-front" src="./img/johnnycage.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kano">
+            <img class="card-front" src="./img/kano.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kenshi">
+            <img class="card-front" src="./img/kenshi.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kintaro">
+            <img class="card-front" src="./img/kintaro.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kitana">
+            <img class="card-front" src="./img/kitana.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kotalkahn">
+            <img class="card-front" src="./img/kotalkahn.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kungjin">
+            <img class="card-front" src="./img/kungjin.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kunglao">
+            <img class="card-front" src="./img/kunglao.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="liukang">
+            <img class="card-front" src="./img/liukang.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="mileena">
+            <img class="card-front" src="./img/mileena.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="quanchi">
+            <img class="card-front" src="./img/quanchi.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="raiden_2">
+            <img class="card-front" src="./img/raiden_2.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="reptile">
+            <img class="card-front" src="./img/reptile.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="scorpion">
+            <img class="card-front" src="./img/scorpion.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="shinnok">
+            <img class="card-front" src="./img/shinnok.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="smoke">
+            <img class="card-front" src="./img/smoke.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="sonya">
+            <img class="card-front" src="./img/sonya.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="subzero">
+            <img class="card-front" src="./img/subzero.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="tanya">
+            <img class="card-front" src="./img/tanya.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <!-- Repetição das cartas -->
+        <div class="card" data-card="cassiecage">
+            <img class="card-front" src="./img/cassiecage.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="ermac">
+            <img class="card-front" src="./img/ermac.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="erronblack">
+            <img class="card-front" src="./img/erronblack.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="goro">
+            <img class="card-front" src="./img/goro.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="jax">
+            <img class="card-front" src="./img/jax.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="johnnycage">
+            <img class="card-front" src="./img/johnnycage.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kano">
+            <img class="card-front" src="./img/kano.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kenshi">
+            <img class="card-front" src="./img/kenshi.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kintaro">
+            <img class="card-front" src="./img/kintaro.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kitana">
+            <img class="card-front" src="./img/kitana.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kotalkahn">
+            <img class="card-front" src="./img/kotalkahn.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kungjin">
+            <img class="card-front" src="./img/kungjin.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="kunglao">
+            <img class="card-front" src="./img/kunglao.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="liukang">
+            <img class="card-front" src="./img/liukang.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="mileena">
+            <img class="card-front" src="./img/mileena.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="quanchi">
+            <img class="card-front" src="./img/quanchi.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="raiden_2">
+            <img class="card-front" src="./img/raiden_2.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="reptile">
+            <img class="card-front" src="./img/reptile.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="scorpion">
+            <img class="card-front" src="./img/scorpion.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="shinnok">
+            <img class="card-front" src="./img/shinnok.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="smoke">
+            <img class="card-front" src="./img/smoke.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="sonya">
+            <img class="card-front" src="./img/sonya.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="subzero">
+            <img class="card-front" src="./img/subzero.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="tanya">
+            <img class="card-front" src="./img/tanya.png" alt="Face da carta">
+            <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
