@@ -7,7 +7,8 @@
 body {
     height: 100vh;
     display: flex;
-    background-color: rgb(188, 248, 228);
+    background-color: rgb(80, 24, 7);
+    background-image: url('./img/logo_2.png');
 }
 
 .memory-game {
@@ -43,7 +44,8 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: rgb(92, 187, 182);
+  /* background: rgb(92, 187, 182); */
+  background: rgb(173, 92, 26);;
   backface-visibility: hidden; /* todo elemento tem uma frente e um verso (ao contrario, como um espelho.) essa propriedade retira o verso */
 }
 
