@@ -201,7 +201,35 @@
             <img class="card-front" src="./img/tanya.png" alt="Face da carta">
             <img class="card-back" src="./img/logo_1.png" alt="Verso da carta">
         </div>
+        <audio id="background-sound" src="./sounds/mk2_bgsound.mp3"></audio>
+        <audio id="match-sound" src="./sounds/excellent.mp3"></audio>
+        <audio id="nomatch-sound" src="./sounds/toasty.mp3"></audio>
+        <audio id="game-start" src="./sounds/fight.mp3" ></audio>
     </main>
+    <botoes class="buttons">
+        <div>
+            <img class="button-background-sound" src="./img/bgsound.png">
+            <input type="range" id="background-sound-volume" min="0" value="0.5" max="1" step="0.1">
+        </div>
+        <div>
+            <img class="button-soundeffects" src="./img/toasty.png">
+            <input type="range" id="soundeffects-volume" min="0" value="0.5" max="1" step="0.1">
+        </div>
+        <div>
+            <img class="reset-button" src="/img/resetbutton.png">
+        </div>
+    </botoes>
+    <danforden>
+        <div>
+            <img class="toasty" id="easteregg" src="/img/toasty_original.png">
+        </div>
+    </danforden>
+    <!-- <audio id="demo" src="./sounds/MK2_BGMUSIC.mp3"></audio>
+    <div>
+        <button onclick="document.getElementById('demo').play()">Reproduzir o áudio</button>
+        <button onclick="document.getElementById('demo').pause()">Pausar o áudio</button>
+    </div>
+    <input type="range" id="weight" min="0" value="0.5" max="1" step="0.1" onchange="document.getElementById('demo').volume=this.value"> -->
     <script src="./script.js"></script>
 </body>
 </html>

@@ -1,3 +1,13 @@
+@keyframes toastyAnimation {
+    50% {
+        transform: translateX(-180px);
+        transition: 1s;
+    }
+    100% {
+        transition: ease-out;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +15,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     background-color: rgb(80, 24, 7);
     background-image: url('./img/logo_2.png');
@@ -45,7 +55,7 @@ body {
   position: absolute;
   border-radius: 5px;
   /* background: rgb(92, 187, 182); */
-  background: rgb(173, 92, 26);;
+  background: rgb(173, 92, 26);
   backface-visibility: hidden; /* todo elemento tem uma frente e um verso (ao contrario, como um espelho.) essa propriedade retira o verso */
 }
 
@@ -57,4 +67,83 @@ body {
 
 .card.flip {
     transform: rotateY(180deg);
+}
+
+.buttons {
+    padding: 10px;
+    top: 300px;
+    line-height: 30px;
+    right: 0px;
+    position: fixed;
+}
+
+.button-background-sound {
+    width: 10vh;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button-background-sound:hover {
+    opacity: unset;
+    transform: scale(0.9);
+}
+
+:hover > #background-sound-volume {
+    visibility: visible;
+}
+
+.button-soundeffects {
+    width: 10vh;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button-soundeffects:hover {
+    opacity: unset;
+    transform: scale(0.9);
+}
+
+:hover > #soundeffects-volume {
+    visibility: visible;
+}
+
+.reset-button {
+    width: 10vh;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.reset-button:hover {
+    opacity: unset;
+    transform: scale(0.9);
+}
+
+#background-sound-volume {
+    visibility: hidden;
+    width: 10vh;
+    top: 350px;
+    right: 5vw;
+    position: fixed;
+    cursor: pointer;
+}
+
+#soundeffects-volume {
+    visibility: hidden;
+    width: 10vh;
+    top: 450px;
+    right: 5vw;
+    position: fixed;
+    cursor: pointer;
+}
+
+.toasty {
+    visibility: hidden;
+    top: 82vh;
+    position: fixed;
+}
+
+.toasty.showup {
+    visibility: visible;
+    width: 10vw;
+    animation: toastyAnimation 2s;
 }
